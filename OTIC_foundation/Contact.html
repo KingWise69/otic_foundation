@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Otic Foundation</title>
+		<link rel="icon" type="image" href="images/icon.png">
+		<!-- style.css linking here -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- font family linking here -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- font-awesome.min.css linking here -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- header section strt -->
+		<section class="sub-header">
+			<!-- nav strt -->
+			<nav>
+				<a href="index.html"><img src="images/logo1.png" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="About.html">ABOUT</a>
+						</li>
+						
+						<li>
+							<a href="Blog.html">BLOG</a>
+						</li>
+						<li>
+							<a href="Contact.html">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<!-- nav end -->
+			<h1>Contact Us</h1>
+		</section>
+		<!-- header section end -->
+
+		<!-- Contact us content strt -->
+	
+		<section class="contact-us">
+			<div class="row">
+				<div class="contact-col">
+					<div>
+						<i class="fa fa-home"></i>
+						<span>
+							<h5>Kampala</h5>
+							<p>Uganda</p>
+						</span>
+					</div>
+					<div>
+						<i class="fa fa-phone"></i>
+						<span>
+							<h5>+256751938178</h5>
+							<h5>+256786172731</h5>
+							<h5>+256742881074</h5>
+							<p>Monday to Saturday, 10AM tO 6PM</p>
+						</span>
+					</div>
+					<div>
+						<i class="fa fa-envelope-o"></i>
+						<span>
+							<h5>info@oticfoundation.org</h5>
+							<p>Email us</p>
+						</span>
+					</div>
+				</div>
+				<div class="contact-col">
+					<form action="form handelar.php" method="post">
+						<input type="text" name="name" placeholder="Enter Your Name" required>
+						<input type="email" name="email" placeholder="Enter Email Address" required>
+						<input type="text" name="subject" placeholder="Enter Your Subject" required>
+						<textarea rows="8" name="message" placeholder="Message" required></textarea>
+						<button type="Submit" class="hero-btn red-btn">Send Message</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- footer strt -->
+		<section class="footer">
+			<h4>Reach Us</h4>
+			<div class="icons">
+				<a href =><i class="fa fa-facebook"></i></a>
+				<a href = https://twitter.com/OticUganda><i class="fa fa-twitter"></i></a>
+				<a href=><i class="fa fa-instagram"></i></a>
+				<a href= https://www.linkedin.com/posts/oticuganda_aiineducation-oticfoundation-innovation-activity-7193656200171835392-RsTk?utm_source=share&utm_medium=member_android><i class="fa fa-linkedin"></i></a>
+			</div>
+			<p><i class=></i> <strong>Copyright Otic Foundation</strong> <i class></i> <strong> 2024</strong> </p>
+		</section>
+		<!-- footer end -->
+		<!-- Javascript for toggle menu -->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Otic Foundation</title>
+		<link rel="icon" type="image" href="images/icon.png">
+		<!-- style.css linking here -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- font family linking here -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<!-- font-awesome.min.css linking here -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- header section strt -->
+		<section class="sub-header">
+			<!-- nav strt -->
+			<nav>
+				<a href="index.html"><img src="images/logo1.png" alt=""></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="About.html">ABOUT</a>
+						</li>
+					
+						<li>
+							<a href="Blog.html">BLOG</a>
+						</li>
+						<li>
+							<a href="Contact.html">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<!-- nav end -->
+			<h1>About Us</h1>
+		</section>
+		<!-- header section end -->
+		<!-- about us content strt -->
+		<section class="about-us">
+			<div class="row">
+				<div class="about-col">
+				  <h1>Spreading And Cultivating AI in Africa</h1>
+				  <p>Otic Foundation is committed to building Africa’s AI talent ecosystem and developing innovative solutions to address challenges.</p>
+				  <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+				</div>
+				<div class="about-col">
+				   <img src="images/group.jpeg" alt="">
+				</div>
+			</div>
+		</section>
+		
+		<!-- footer strt -->
+		<section class="footer">
+			<h4>Reach Us</h4>
+			<div class="icons">
+				<a href =><i class="fa fa-facebook"></i></a>
+				<a href = https://twitter.com/OticUganda><i class="fa fa-twitter"></i></a>
+				<a href=><i class="fa fa-instagram"></i></a>
+				<a href= https://www.linkedin.com/posts/oticuganda_aiineducation-oticfoundation-innovation-activity-7193656200171835392-RsTk?utm_source=share&utm_medium=member_android><i class="fa fa-linkedin"></i></a>
+			</div>
+			<p><i class=></i> <strong>Copyright Otic Foundation</strong> <i class></i> <strong> 2024</strong> </p>
+		</section>
+		<!-- footer end -->
+		<!-- Javascript for toggle menu -->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
+</html>
