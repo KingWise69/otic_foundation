@@ -251,42 +251,7 @@ h3{
 	margin:16px 0px 15px 0px;
 	text-align: left;
 }
-.testimonials{
-	width: 80%;
-	margin: auto;
-	text-align: center;
-	padding-top: 100px;
-}
-.testimonial-col{
-	flex-basis: 44%;
-	border-radius: 10px;
-	margin-bottom: 5%;
-	text-align: left;
-	background: #fff3f3;
-	padding: 25px;
-	cursor: pointer;
-	display: flex;
-}
-.testimonial-col img{
-	height: 40px;
-	margin:0 30px 0 5px;
-	border-radius: 50%;
-}
-.testimonial-col p{
-	padding: 0;
-}
-.testimonial-col h3{
-	margin: 15px 0px 0px 0px;
-	text-align: left;
-}
-.testimonial-col .fa{
-	color: #faa51a;
-}
-@media(max-width: 700px){
-	.testimonial-col img{
-	margin:0 15px 0 0px;
-}
-}
+
 .cta{
 	margin: 100px auto;
 	width: 80%;
