@@ -2,16 +2,17 @@
 function typeText(element) {
     if (!element.hasAttribute('data-typed')) {
         var text = element.textContent;
-        element.textContent = '';
+        element.textContent = ''; // Clear the text content
+        var words = text.split(' '); // Split text into words
         var index = 0;
 
         function type() {
-            if (index < text.length) {
-                element.textContent += text.charAt(index);
+            if (index < words.length) {
+                element.textContent += words[index] + ' '; // Add word with space
                 index++;
-                setTimeout(type, 50); // Adjust the typing speed here (in milliseconds)
+                setTimeout(type, 200); // Adjust the typing speed here (in milliseconds)
             } else {
-                element.setAttribute('data-typed', 'true'); // Mark text as typed
+                element.setAttribute('data-typed', 'done'); // Mark text as typed
             }
         }
 
