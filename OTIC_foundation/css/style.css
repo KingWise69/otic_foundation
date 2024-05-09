@@ -30,36 +30,7 @@
 	animation: slideInFromLeft 1s ease-in-out forwards;
 }
   
-  /* Example Animation for Images */
-@keyframes fadeIn {
-	0% {
-	  opacity: 0;
-	}
-	100% {
-	  opacity: 1;
-	}
-}
-  
-  /* Apply Animation to Images */
-.overview img, .campus img, .projects img {
-	animation: fadeIn 1s ease-in-out forwards;
-}
-  
-  /* Other Recommendations for Vibrancy */
-  /* Add Hover Effects to Nav Links */
-.nav-links ul li a:hover {
-	color: #ff6600; /* Change to your desired hover color */
-}
-  
-  /* Add Box Shadow to Images on Hover */
-.campus-col img:hover, .projects-col img:hover {
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-  
-  /* Add Hover Effects to Social Media Icons */
-.footer .icons a:hover {
-	transform: scale(1.2); /* Increase the size on hover */
-  }
+
   
 nav{
 	display: flex;
