@@ -100,6 +100,36 @@ nav img{
 	background:#faa51a ;
 	transition: 1s;
 }
+.section__container {
+	max-width: var(--max-width);
+	margin: auto;
+	padding: 5rem 1rem;
+}
+.banner__content {
+	padding: 2rem;
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+  
+.banner__card {
+	text-align: center;
+	flex: 1 1 180px;
+}
+  
+.banner__card h4 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: var(--text-dark);
+}
+  
+.banner__card p {
+	color: var(--text-light);
+}
 nav .fa{
 	display: none;
 }
@@ -141,6 +171,7 @@ nav .fa{
    text-align: center;
    padding-top: 100px;
 }
+
 h1{
 	font-size: 36px;
 	font-weight: 600;
